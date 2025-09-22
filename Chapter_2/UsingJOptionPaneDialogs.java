@@ -3,7 +3,7 @@ import javax.swing.JOptionPane;
 public class UsingJOptionPaneDialogs {
     public static void main(String[] args) {
         while (true) {
-            String name = JOptionPane.showInputDialog(null, "Please enter your name:", "Name Input", JOptionPane.QUESTION_MESSAGE);
+            String name = JOptionPane.showInputDialog(null, "What is your name?", "Name Input", JOptionPane.QUESTION_MESSAGE);
             
             if (name == null) {
                 break;
@@ -21,7 +21,7 @@ public class UsingJOptionPaneDialogs {
                     JOptionPane.QUESTION_MESSAGE);
 
             if (confirm == JOptionPane.YES_OPTION) {
-                JOptionPane.showMessageDialog(null, "Hello, " + name + "! Nice to meet you.", "Name Display", JOptionPane.INFORMATION_MESSAGE);
+                JOptionPane.showMessageDialog(null, "Hello, " + name + "!", "Name Display", JOptionPane.INFORMATION_MESSAGE);
                 break;
             } else if (confirm == JOptionPane.NO_OPTION) {
                 continue;
@@ -31,3 +31,4 @@ public class UsingJOptionPaneDialogs {
         }
     }
 }
+
