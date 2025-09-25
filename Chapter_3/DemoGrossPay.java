@@ -5,9 +5,11 @@ public class DemoGrossPay {
         calculateGross(37.5);
     }
 
+    // Calculates and prints gross pay based on hours worked and hourly rate
     public static void calculateGross(double hours) {
         double rate = 22.75;
         double grossPay = hours * rate;
         System.out.println(hours + " hours at $" + rate + " per hour is $" + grossPay);
     }
 }
+
