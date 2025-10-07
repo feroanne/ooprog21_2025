@@ -41,10 +41,11 @@ public class DebugBox {
         box1.showData();
         System.out.println("Volume: " + box1.getVolume());
 
-        System.out.println("\nBox 2:");
+        System.out.println("Box 2:");
         box2.showData();
         System.out.println("Volume: " + box2.getVolume());
     }
 }
+
 
 
