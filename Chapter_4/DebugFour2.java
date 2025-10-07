@@ -28,10 +28,9 @@ public class DebugFour2 {
         display(pen2);
     }
 
-    // Fixed: parameter type and variable usage
+    // Fixed: Display method shows both color and point clearly
     public static void display(DebugPen p) {
-        System.out.println(" The pen has ink color " + p.getColor());
-        System.out.println(" and a " + p.getPoint() + " point.");
+        System.out.println(" The pen has ink color " + p.getColor() + " and a " + p.getPoint() + " point.");
     }
 }
 
